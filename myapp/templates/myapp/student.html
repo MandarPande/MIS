@@ -1,0 +1,32 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Jain University </title>
+    <link href= "{% static 'style.css' %}" rel="stylesheet">
+    <link rel="icon"type="image/png"href="{% static 'img/favicon.png' %}">
+ </head>
+<body>
+	<div class="nav">
+		<img src="{% static 'img/falcon.png' %}" style="width: 500px; height: 70px; display: block; margin-left: auto; margin-right: auto;">
+	</div>
+	<div class="student">
+		
+        <div class="classic">
+       		<img src="{% static 'img/details.jpg' %}">
+       		<a href=" 'classic.html' " ><b>STUDENT DETAILS</b></a>
+        </div>
+		<div class="classic" >
+       		<img src="{% static 'img/acheivement.jpg' %}" style="height: 265px; width:320px;" >
+       		<a href="classic.html" ><b>ACHIEVEMENTS</b></a>
+        </div>
+        
+        <div class="classic" >
+       		<img src="{% static 'img/result1.jpg' %}" style="height: 265px; width:320px;">
+       		<a href="classic.html" ><b>RESULTS</b></a>
+        </div>
+        
+	</div>
+</body>
+ </html>
