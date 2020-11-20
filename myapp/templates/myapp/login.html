@@ -19,11 +19,11 @@
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
-		<form action=" " method="POST">
+		<form method="POST">
             <h1>STUDENT LOGIN </h1>
             {% csrf_token %}
-			<input type="text" placeholder="usn" />
-			<input type="password" placeholder="password" />
+			<input id="usn" name="usn" type="text" placeholder="usn" />
+			<input id="password" name="password" type="password" placeholder="password" />
 			<button type="submit">Sign In </button>
 		</form>
     </div>
